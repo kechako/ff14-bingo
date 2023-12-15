@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" style="background-color: white; ">
+  <style type="text/css">
+  .text {
+    width: 100px;
+    height: 100px;
+    fill: #888888;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "ヒラギノ丸ゴ Pro W4",  "ヒラギノ丸ゴ Pro";
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  </style>
+  <defs>
+    <rect id="box-a" width="100" height="100" fill="#ffe5ec" />
+    <rect id="box-b" width="100" height="100" fill="#ffc2d1" />
+    <circle id="circle" r="40" fill="none" stroke="#fb6f92" stroke-width="8" />
+  </defs>
+
+  <use href="#box-a" x="10"  y="10" />
+  <use href="#box-b" x="110" y="10" />
+  <use href="#box-a" x="210" y="10" />
+
+  <use href="#box-b" x="10"  y="110" />
+  <use href="#box-a" x="110" y="110" />
+  <use href="#box-b" x="210" y="110" />
+
+  <use href="#box-a" x="10"  y="210" />
+  <use href="#box-b" x="110" y="210" />
+  <use href="#box-a" x="210" y="210" />
+
+  <text class="text" x="60"  y="60">タイタン</text>
+  <text class="text" x="160" y="60">イフリート</text>
+  <text class="text" x="260" y="60">ガルーダ</text>
+
+  <text class="text" x="60"  y="160">アシエン</text>
+  <text class="text" x="160" y="160">シヴァ</text>
+  <text class="text" x="260" y="160">ギルガメッシュ</text>
+
+  <text class="text" x="60"  y="260">モグル</text>
+  <text class="text" x="160" y="260">ラムウ</text>
+  <text class="text" x="260" y="260">シヴァ</text>
+
+  <!--
+  <use href="#circle" x="60"  y="60" />
+  <use href="#circle" x="160"  y="60" />
+  <use href="#circle" x="260"  y="60" />
+
+  <use href="#circle" x="60"  y="160" />
+  <use href="#circle" x="160"  y="160" />
+  <use href="#circle" x="260"  y="160" />
+
+  <use href="#circle" x="60"  y="260" />
+  <use href="#circle" x="160"  y="260" />
+  <use href="#circle" x="260"  y="260" />
+  -->
+</svg>
